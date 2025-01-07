@@ -1,7 +1,7 @@
 <template>
   <el-form :inline="true" :model="formInline" class="demo-form-inline">
     <el-form-item label="Approved by">
-      <el-input v-model="formInline.user" placeholder="Approved by" clearable />
+      <el-input v-model="formInline.user" placeholder="Approved by" />
     </el-form-item>
     <el-form-item label="Activity zone">
       <el-select
